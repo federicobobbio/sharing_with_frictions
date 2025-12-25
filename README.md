@@ -13,7 +13,7 @@ by Federico Bobbio, Randall Berry, Michael Honig, Thanh Nguyen, Vijay Subramania
 
 - [Description](#description)
 - [Python scripts](#python-scripts)
-  - [Package installation](#package-installation)
+  - [Package installation](#installation)
   - [Solving tools and Results](#solving-tools-and-results)
 
 
