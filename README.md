@@ -20,25 +20,22 @@ by Federico Bobbio, Randall Berry, Michael Honig, Thanh Nguyen, Vijay Subramania
 ## Description 
 The code implements numerical simulations and optimization models under different interference settings (e.g., independent and power), relying on Gurobi to solve linear programs and using Python libraries to visualize results. The Python environment consists of scripts organized into the following structure:
 
-project-root/
-├── scripts/
-│   └── RunScript.py              # Main script to generate all plots
-│
-├── src/
-│   ├── fig_1_2.py                # Code for Figures 1 and 2
-│   ├── fig_3_4.py                # Code for Figures 3 and 4
-│   ├── fig_5_6.py                # Code for Figures 5 and 6
-│   ├── fig_7_8.py                # Code for Figures 7 and 8
-│   └── models.py                 # Shared model-building and solving functions
-│
-├── results/
-│   └── plots/
-│       ├── indep/                # Saved plots under independent interference
-│       └── power/                # Saved plots under power interference
-│
-├── requirements.txt              # Python dependencies
-├── LICENSE                       # License information
-└── README.md                     # Project documentation
+## Project Structure
+
+| Path                          | Description                                         |
+|-------------------------------|-----------------------------------------------------|
+| `scripts/RunScript.py`        | Main script to generate all plots                   |
+| `src/fig_1_2.py`              | Code for Figures 1 and 2                            |
+| `src/fig_3_4.py`              | Code for Figures 3 and 4                            |
+| `src/fig_5_6.py`              | Code for Figures 5 and 6                            |
+| `src/fig_7_8.py`              | Code for Figures 7 and 8                            |
+| `src/models.py`               | Shared model-building and solving functions         |
+| `results/plots/indep/`        | Saved plots under independent interference          |
+| `results/plots/power/`        | Saved plots under power interference                |
+| `requirements.txt`            | Python dependencies                                 |
+| `LICENSE`                     | License information                                 |
+| `README.md`                   | Project documentation                               |
+
 
 
 Our results were obtained on an Apple M3 Pro CPU and 36 GB of RAM, using Gurobi 13.0.0 to solve optimization problems with code written in Python 3.13.3. The total time to run all instances and methods was approximately 1 hour.
